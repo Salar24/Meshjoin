@@ -1,0 +1,8 @@
+Steps to Execute Project
+
+1. Execute the .sql File to generate the Star Schema.
+2. Execute the .sql File to generate the MasterData.
+3. Have JDBC Connector download, Update Connection Strings at Line Number 85 and 572 with correct Connection Credentials.
+4. Run The project
+5. Enter Partition Size. Preferrably 15 as the Code might break on specific values. Although it is amde generic, The flaw still exists
+6. Done
